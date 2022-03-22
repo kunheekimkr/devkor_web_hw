@@ -1,0 +1,38 @@
+a {
+  color: black;
+}
+
+.profile {
+  height: 300px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.name {
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.content {
+  margin-left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.github {
+  height: 32px;
+  margin-right: 10px;
+}
+
+.kaggle {
+  height: 32px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.instagram {
+  height: 32px;
+  margin-left: 5px;
+}
