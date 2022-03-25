@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Your shopping cart</h1>
+      <table class="shoppingcart">
+        <thead>
+          <tr>
+            <th colspan="2" style="text-align: center;" >ITEM</th>
+            <th class="amount">AMOUNT</th>
+            <th class="price">PRICE</th>
+            <th class="total" style="color: #b2cbd6">TOTAL&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="itemimg"><img src="./images/camera.png"" style="margin-right:0px"></td>
+            <td class="iteminfo"><img src="./images/sony.png" style="width:60px;"><p>FE 70-200 mm F2.8 GM OSS</p></td>
+            <td class="amount">1</td>
+            <td class="price">€ 1979.00</td>
+            <td class="total">€ 1979.00&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; </td>
+          </tr>
+          <tr>
+            <td class="itemimg"><img src="./images/lens.png""></td>
+            <td class="iteminfo"><img src="./images/sony.png" style="width:60px;"><p>Sonnar T* E 24mm F1.8 ZA</p></td>
+            <td class="amount">1</td>
+            <td class="price">€ 989.00</td>
+            <td class="total">€ 989.00&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; </td>
+          </tr>
+          <tr>
+            <td colspan="5" style="font-size: 30px; color: #133861; text-align:right">€ 2698.00&nbsp;&nbsp;&nbsp; &nbsp; </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="submit">
+        <a class="edit">Edit your shopping cart</p>
+        <button class="submitbutton" type="submit">
+          Choose payment method
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

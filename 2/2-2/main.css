@@ -1,0 +1,88 @@
+.container {
+  background-color: #b2cbd6;
+  width: 100%;
+  height: 1000px;
+  padding-top: 1px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+h1 {
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #3b5c7e;
+}
+
+tr {
+  height: 90px;
+}
+
+.shoppingcart {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #b2cbd6;
+  padding: 10px;
+  color: #b2cbd6;
+  table-layout: auto;
+}
+
+th {
+  font-size: 15px;
+}
+td {
+  font-size: 20px;
+}
+
+.itemimg {
+  text-align: center;
+}
+
+td > p {
+  margin-top: 0px;
+}
+
+.amount {
+  text-align: right;
+}
+
+.price {
+  text-align: right;
+}
+
+.total {
+  color: #133861;
+  text-align: right;
+}
+
+.submit {
+  width: 80%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  position: relative;
+}
+
+.edit {
+  color: #3b5c7e;
+  text-decoration: underline;
+}
+
+.submitbutton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 30%;
+  height: 60px;
+  background-color: #133861;
+  border-radius: 10px;
+  color: white;
+  border: 0;
+}
