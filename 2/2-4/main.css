@@ -226,6 +226,7 @@ button {
     text-align: center;
   }
   .phone {
+    width: 250px;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
