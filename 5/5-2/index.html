@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="alert-box" id="alert">
+      알림창임
+      <button onclick="togglealert('none');">닫기</button>
+    </div>
+    <button onclick="togglealert('block');">열기</button>
+
+    <script>
+      function togglealert(toggle) {
+        document.getElementById("alert").style.display = toggle;
+      }
+    </script>
+  </body>
+</html>
